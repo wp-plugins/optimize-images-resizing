@@ -58,7 +58,7 @@ if ( ! class_exists( 'OIR_Resize_Image' ) ) :
 
 			}
 
-			if ( 0 && $intermediate = image_get_intermediate_size( $id, $size ) ) {
+			if ( $intermediate = image_get_intermediate_size( $id, $size ) ) {
 
 				return false;
 
