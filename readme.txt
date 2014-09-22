@@ -44,5 +44,8 @@ Will be added
 
 == Changelog ==
 
-= 1.0 =
+= 1.0.1 =
+* Fixed issue where images would be regenerated even when not needed.
+
+= 1.0.0 =
 * Initial version.
