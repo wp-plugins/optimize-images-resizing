@@ -40,7 +40,7 @@ None so far
 
 == Screenshots ==
 
-Nothing special to show. The only UI is in the Media settings page wheer the simple button is added for cleaning images previously uploaded
+Nothing special to show. The only UI is in the Media settings page where a simple button is added for cleaning previously uploaded images
 
 == Changelog ==
 
