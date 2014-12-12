@@ -6,7 +6,7 @@
  * Description: Improve WordPress image sizes generation and save your hosting space
  * Author: OriginalEXE
  * Author URI: https://twitter.com/Original_EXE
- * Version: 1.0.1
+ * Version: 1.0.2
  */
 
 // Exit if accessed directly

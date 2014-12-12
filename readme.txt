@@ -2,7 +2,7 @@
 Contributors: OriginalEXE
 Tags: images, media, resizing, optimize, cleanup, remove, empty, clean, resize, image
 Requires at least: 3.8
-Tested up to: 4.0
+Tested up to: 4.1
 Stable tag: trunk
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -40,9 +40,12 @@ None so far
 
 == Screenshots ==
 
-Will be added
+Nothing special to show. The only UI is in the Media settings page wheer the simple button is added for cleaning images previously uploaded
 
 == Changelog ==
+
+= 1.0.2 =
+* Fixed issue where image sizes were not listed in some places inside admin area.
 
 = 1.0.1 =
 * Fixed issue where images would be regenerated even when not needed.
