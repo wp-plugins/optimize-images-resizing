@@ -102,7 +102,7 @@ if ( ! class_exists( 'OIR_Remove_Image_Sizes' ) ) :
 					foreach ( $meta['sizes'] as $size => $params ) {
 
 						// we don't want to delete thumbnails, they are used in admin area
-						if ( 'thumbnail' === $size ) {
+						if ( 'thumbnail' === $size || 'medium' === $size || 'large' === $size ) {
 
 							continue;
 
