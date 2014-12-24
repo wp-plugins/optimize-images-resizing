@@ -49,11 +49,11 @@ if ( ! class_exists( 'OIR_Remove_Image_Sizes' ) ) :
 		}
 
 		// cleans up extra image sizes when called via ajax
-		public function remove_image_sizes( $attachment_id ) {
+		public function remove_image_sizes( $__attachment_id ) {
 
 			$paged = ! empty( $_POST['paged'] ) ? absint( $_POST['paged'] ) : 1;
 
-			if ( ! $attachment_id ) {
+			if ( ! $__attachment_id ) {
 
 				check_ajax_referer( 'oir-nonce', 'nonce' );
 
@@ -73,7 +73,7 @@ if ( ! class_exists( 'OIR_Remove_Image_Sizes' ) ) :
 					'post_mime_type' => 'image',
 					'post_status'    => 'any',
 					'post_type'      => 'attachment',
-					'post__in'       => array( absint( $attachment_id ) ),
+					'post__in'       => array( absint( $__attachment_id ) ),
 				);
 
 			}
@@ -126,7 +126,7 @@ if ( ! class_exists( 'OIR_Remove_Image_Sizes' ) ) :
 
 			}
 
-			if ( ! $attachment_id ) {
+			if ( ! $__attachment_id ) {
 
 				$response = array(
 					'finished' => $finished,

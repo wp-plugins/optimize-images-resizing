@@ -44,6 +44,9 @@ Nothing special to show. The only UI is in the Media settings page where a simpl
 
 == Changelog ==
 
+= 1.0.4 =
+* Fix issue with cleaning up images from media settings screen.
+
 = 1.0.3 =
 * Plugin no longer removes any of the default WordPress image sizes.
 
